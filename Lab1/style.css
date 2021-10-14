@@ -1,0 +1,41 @@
+body {
+    background-color: lavender;
+}
+
+h1 {
+    color: darkviolet;
+    text-align: center;
+    font-family: "Arial Narrow", monospace;
+    font-size: 40px;
+}
+
+p {
+    color: darkblue;
+    text-align: center;
+    font-family: verdana, fantasy;
+    font-size: 20px;
+}
+ol{
+    background-color: antiquewhite;
+    color: darkslategrey;
+    font-family: Gabriola, sans-serif;
+    font-size: 20px;
+}
+table, th, td{
+    background-color: white;
+    width: 50%;
+    color: indigo;
+    font-size: 20px;
+    font-family: "Berlin Sans FB Demi", serif;
+    border-style: dotted;
+    border-color: chocolate;
+}
+ul{
+    list-style: square ;
+}
+a:link {
+    text-decoration: blueviolet;
+}
+a:hover{
+    text-decoration-line: none;
+}
