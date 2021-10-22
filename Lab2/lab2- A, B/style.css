@@ -1,0 +1,12 @@
+h1{
+    background-color: coral;
+}
+form{
+    background-color: darkseagreen;
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+}
+.required::after {
+    color: red;
+    content: "*";
+}
