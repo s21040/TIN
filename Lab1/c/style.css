@@ -1,0 +1,27 @@
+body {
+    background-color: mintcream;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Arial Narrow", monospace;
+    font-size: 40px;
+}
+
+
+.textcols-left {
+    overflow: hidden;
+    float: left;
+    width:49%;
+}
+img{
+    float: inherit;
+    clear:both;
+    margin: 20px;
+}
+.textcols-right {
+    overflow: hidden;
+    float: right;
+    width:49%
+}
