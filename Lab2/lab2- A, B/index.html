@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>TIN lab2</title>
+</head>
+<body>
+<h1>Sign in</h1>
+<form>
+    <p class="required">Provide your user name:</p>
+    <input type="text" name="user"id="user"/>
+    <br>
+    <p class="required">Provide your password:</p>
+    <input class="required" type="password" name="password"id="password"/>
+    <br>
+    <br>
+    <input type="checkbox" value="I agree" name="agree" /><b class="required">I agree to the terms and conditions</b>
+    <br>
+    <p class="required"><b>Choose one:</b></p>
+    <input type="radio" name="status" value="student"/>Student<br/>
+    <input type="radio" name="status" value="teacher"/>Teacher<br/>
+    <p class="required"><b>Choose a term:</b></p>
+    <select class="required" name="Term">
+        <option name="1">First</option>
+        <option name="2">Second</option>
+        <option name="3">Third</option>
+        <option name="4">Fourth</option>
+    </select>
+    <br>
+    <textarea rows="3"cols="15">Comment(optional)</textarea>
+    <br>
+    <input type="submit" name="submitNow" value="Submit" />
+    <br>
+    <input type="reset" />
+</form>
+</body>
+</html>
