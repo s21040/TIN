@@ -1,0 +1,57 @@
+.header-img{
+    filter: drop-shadow(5px 5px 2px gray);
+    border-radius: 3%;
+    transform: rotate(3deg);
+    margin: 0 auto;
+}
+.outer-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.gallery{
+    width:70%;
+}
+header{
+    width: 55%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+article{
+    float: right;
+    width: 80%;
+    column-count: 5;
+    text-align: justify;
+}
+
+.inner_img{
+    width: 40%;
+    margin: 5px 10px;
+    justify-content: space-around;
+}
+blockquote{
+    float: inherit;
+    color: red;
+    padding: 5%;
+    margin: 7px 20px;
+    border: none;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+}
