@@ -1,0 +1,14 @@
+{
+  "name": "task9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task9a.js",
+  "scripts": {
+    "start": "node task9a.js"
+  },
+  "author": "s21040",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
